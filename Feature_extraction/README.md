@@ -1,0 +1,1 @@
+Points from the course: [AI Workflow: Feature Engineering and Bias Detection](https://www.coursera.org/learn/ibm-ai-workflow-feature-engineering-bias-detection)
