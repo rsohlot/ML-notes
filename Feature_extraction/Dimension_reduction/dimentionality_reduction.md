@@ -90,7 +90,7 @@
 	historical documents. The trained model would then make probability estimates for membership
 	in the categories.
 
-	Additional resources for topic modeling:
+Additional resources for topic modeling:
 [Applications of Topic Models](https://mimno.infosci.cornell.edu/papers/2017_fntir_tm_applications.pdf)
 
 [LDA was used to extract information from clinical notes](https://researcher.watson.ibm.com/researcher/files/ibm-Uri.Kartoun/srep42282_blei03a.pdf)
