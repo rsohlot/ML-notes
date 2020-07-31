@@ -43,10 +43,10 @@ TN (true negatives) is not part of the numerator.
 
 <!-- precision = \frac{tp}{tp + fp} -->
 
-precision = [](image_source/precision_1.gif)
+precision = ![precision 1](image_source/precision_1.gif)
 <!-- precision = \frac{tp}{tp + fn} -->
 
-precision = [](image_source/precision_2.gif)
+precision = ![precision 2](image_source/precision_2.gif)
 
 The most common approaches to address imbalanced classes are sampling based. Between over-sampling
 and under-sampling, under-sampling is conceptually simpler. Given a minority class or classes that
