@@ -33,7 +33,6 @@ metric as the results can be misleading. Accuracy is the number of correct calls
 the calls.
 
 <!-- accuracy = \frac{tp+tn}{tp + fp + tn + fn} -->
-accuracy = 
 ![](image_source/accuracy.gif)
 
 If our positive class is only a small percentage of the overall data you can see that the model
@@ -44,11 +43,9 @@ TN (true negatives) is not part of the numerator.
 
 <!-- precision = \frac{tp}{tp + fp} -->
 
-precision = 
 ![precision 1](image_source/precision_1.gif)
 <!-- precision = \frac{tp}{tp + fn} -->
 
-precision = 
 ![precision 2](image_source/precision_2.gif)
 
 The most common approaches to address imbalanced classes are sampling based. Between over-sampling
