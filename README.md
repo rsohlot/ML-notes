@@ -13,3 +13,7 @@ Notes created from the courses I have taken.
 	possible. You will be the one who leads the discussion of bias during playbacks, and also the
 	one who leads the way in making sure any models selected during the Prototype and Testing
 	phases of the design thinking process are as un-biased as possible.
+
+
+
+* ![Feature Selection](feature_extraction/README.md)
