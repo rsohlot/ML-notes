@@ -1,4 +1,15 @@
 # Dimention Reduction
+	Examples of data that often require dimensionality reduction either for visualization or for
+	modeling purposes include images, texts, signal processing data, astronomical data, and health
+	data. The sklearn.decomposition module includes a number of matrix decomposition algorithms
+	including PCA, NMF and ICA. Matrix decomposition has been used for a long time to enable
+	dimensionality reduction. One major drawback to using PCA is that non-linear or curved
+	surfaces tend to not be well-explained by the approach. Manifold learning for dimensionality
+	reduction has gained a lot of traction recently. In particular the t-distributed stochastic
+	neighbor embedding (tSNE) family of approaches have become a viable alternative to PCA. It is
+	also worth noting that feature selection techniques like using an ANOVA to select K features 
+	see SelectKBest ) is also a valid form of dimensionality reduction.
+	
 	* Feature subsetting: ANOVA, LASSO
 	* Matrix decompostion techniques: PCA, SVD
 	* Manifold learning techniques: tSNE, isomap
