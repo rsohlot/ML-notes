@@ -35,7 +35,7 @@ To install it use:
 ```
 pip install pyldavis 
 ```
-
+[[1]](http://ai.stanford.edu/~amaas/data/sentiment/)
 [[1]](https://www.aclweb.org/anthology/P11-1015/)
 [[2]](https://www.researchgate.net/publication/265784473_LDAvis_A_method_for_visualizing_and_interpreting_topics?channel=doi&linkId=541affaf0cf25ebee988df72&showFulltext=true)
 [[2]](https://nlp.stanford.edu/events/illvi2014/papers/sievert-illvi2014.pdf)
