@@ -15,7 +15,7 @@
 	* Manifold learning techniques: tSNE, isomap
 	* dimention reduction in the context of a pipeline: models mau vary in terms of their sensitivity to the class imbalance
 
-	The mail goal is to compare and tune different alogorithm available for dimension reduction.
+	The main goal is to compare and tune different alogorithm available for dimension reduction.
 
 
 # Feature subsetting
@@ -73,3 +73,23 @@
 	result.It's always highly recommended to use another dimensionality reduction method such as
 	PCA for dense data, or truncated SVD for sparse data.To reduce the number of dimensions down
 	to a reasonable amount such as 50.
+
+# Topic Modeling
+	Latent Dirichlet Allocation (LDA) and non-negative matrix factorization (NMF) are both
+	commonly used in the context of topic modeling. Generally, these approaches use a bag-of-words
+	representation. These models are in practice a form of dimensionality reduction. The embedding
+	approach tSNE is often used to visualize the results of topic model representations in lower
+	dimensional space to both tune the model as well as gather insights from the data. The package
+	pyLDAvis is specifically purposed with visualizing the results of these models.
+
+	Topic modeling has a number of use cases apart from feature engineering for supervised
+	learning. There is utility in being able to organize a large corpus of data. Take for example
+	a law firm that has used the same types of forms for decades. Before the form was electronic
+	it was simply put in a folder. Now that the forms are electronic they are organized into
+	categories. LDA can be used to model the new corpus before the trained model is fed the
+	historical documents. The trained model would then make probability estimates for membership
+	in the categories.
+
+	Additional resources:
+[Applications of Topic Models](https://mimno.infosci.cornell.edu/papers/2017_fntir_tm_applications.pdf)
+[LDA was used to extract information from clinical notes](https://researcher.watson.ibm.com/researcher/files/ibm-Uri.Kartoun/srep42282_blei03a.pdf)
