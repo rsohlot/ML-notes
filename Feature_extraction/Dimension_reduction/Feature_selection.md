@@ -45,3 +45,13 @@
 	* SparseCoder - Sparse coding
 	* TruncatedSVD - Dimensionality reduction using truncated Singular Value Decomposition (aka LSA).
 	
+# Manifold learning:
+	Manifold learning algorithms are often used in the context of visualization.
+	Principal component analysis and independent component analysis are examples of algorithms that define ways to obtain a specific linear projection of the data. These methods have the caveat that they do not identify nonlinear structure in the data. Manifold learning is used to generalize linear techniques such as PCA to be more sensitive to nonlinear structure in your data.  
+	* Isomap Isomap Embedding
+	* LocallyLinearEmbeddin
+	* MDS - Multidimensional scaling
+	* SpectralEmbedding - Spectral embedding for non-linear dimensionality reduction.
+	* TSNE t-distributed Stochastic Neighbor Embedding.
+
+	t-SNE has a cost function that is not convex. This means that we will not always get the same result.It's always highly recommended to use another dimensionality reduction method such as PCA for dense data, or truncated SVD for sparse data.To reduce the number of dimensions down to a reasonable amount such as 50.
