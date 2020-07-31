@@ -8,7 +8,7 @@ attributes, that are of interest: race is one example of a protected attribute a
 second.
 
 ## Tutorial:
-[Download the tutorial.](example/AIF360-tutorial.zip)
+[Download the tutorial.](example/AIF360-tutorial.zip?raw=true)
 
 * This tutorial shows how to compute fairness metrics and mitigate the bias using a feature
 transformation. The specific mitigation technique used in this example is called a
