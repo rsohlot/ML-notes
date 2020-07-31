@@ -33,7 +33,7 @@ metric as the results can be misleading. Accuracy is the number of correct calls
 the calls.
 
 <!-- accuracy = \frac{tp+tn}{tp + fp + tn + fn} -->
-accuracy = [](image_source/accuracy.gif)
+accuracy = ![](image_source/accuracy.gif)
 
 If our positive class is only a small percentage of the overall data you can see that the model
 will be optimized for the negative class. The ability of a model to resolve true positives will
