@@ -31,3 +31,17 @@
 
 	Principle components are linear combinations of the original variables.
 	
+
+# Other matrix decomposition techniques
+	* DictonaryLearning - Dictionary learning
+	* FactorAnalysis - Fator Analysis (FA)
+	* FastICA - FastICA: a fast algotithm for the Independent Component Analysis.
+	* IncrementalPCA - Incremental principal component analysis (IPCA)
+	* KernalPCA - Kernal principal component analysis (KPCA)
+	* LatentDirichletAllocation - Latent Dirichlet Allocation with online variational Bayes 
+	  algorithm.
+	* NMF - Non-Negative Matrix Factorization (NMF)
+	* SparsePCA - Sparse Principal Components Analysis (SparsePCA)
+	* SparseCoder - Sparse coding
+	* TruncatedSVD - Dimensionality reduction using truncated Singular Value Decomposition (aka LSA).
+	
