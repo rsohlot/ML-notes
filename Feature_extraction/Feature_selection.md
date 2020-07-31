@@ -22,7 +22,8 @@
 
 # Principle Component Analysis
 	* Latex Formula: Cov(X,Y) = \frac {\sum_{i=1} ^{n} (X_i - \bar{X} ) (Y_i - \bar{Y} )} {n-1}
-![alt text](pca_formula.gif)
+<!-- ![alt text](pca_formula.gif) -->
+<div style="text-align:center"><img src="images/pca_formula.gif" /></div>
 
 	Usually we will get a covariance matrix with a lot of large values.Our ideal would be one
 	where all the non-diagonal values are 0. This means that there is no relationship between the
