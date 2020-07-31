@@ -9,6 +9,7 @@ such as dimensionality reduction, outlier detection, clustering and other forms 
 learning. Combining these activities into a single process is done mainly because selecting a
 suitable transformation or tuning a given transformation takes the same form. That form builds on
 the three interfaces of scikit-learn and the container class pipelines.
+
 Transformer interface
 
     Used to convert data from one form to another
