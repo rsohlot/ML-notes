@@ -8,7 +8,9 @@ The discovery of outliers generally occurs during the EDA stage, and the decisio
 The first thing to keep in mind when dealing with outliers is to ensure that they are identified and tracked in a systematic way.
 This generally involves Data Visualization where the color scheme on scatter plots and histograms is configured to provide guidance and insight.
 We're not limited to one and two-dimensional spaces because techniques like PCA and t-SNE can project high-dimensional data into these more familiar spaces. These visualizations can lead to the important discovery of what constitutes an outlier in a particular dataset.
+
 An observation apparently different from the rest may exist as a true outlier because of instrument errors, like a need for calibration, or human errors such as the mislabeling of samples. There are numerous other reasons, but it's important to note that an apparent outlier may in fact be as valid as the rest of the data. It's important to learn as much as possible about data points that appear to be outliers, and this will likely involve a discussion with domain experts.
 In some cases like customer churn analysis, the positive class may exist as an extreme minority, and when class imbalance is severe enough, then even techniques like SMOTE and over-sampling may not suffice. Fortunately, there are outlier detection and novelty detection algorithms that fit this exact type of situation.
+
 Outlier detection is used for systematically identifying observations that are different from the other observations and data we've already collected. Novelty detection is focused on detecting outliers during the process of collecting new data.
 The application of the algorithms discussed in this unit can be used in classification, regression, anomaly detection, quality control, and the creation of new features for subsequent machine learning. 
