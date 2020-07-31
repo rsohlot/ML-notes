@@ -42,3 +42,17 @@ Historically the concept of inertia or the within cluster sum-of-squares has bee
 Important: When thinking about the appropriate number of clusters it is possible that there is more than one answer depending on the perspective. If we clustered visible light on planet earth at night in euclidean space then there would be valid cluster assignments at the continent level, at the country level and at the city level. Keeping this in mind can help ensure you model pipelines are flexible. It can help to think about clusters labels as a probabilistic assignment rather than a hard label.
 
 When comparing across algorithms it is important that the comparisons be between results that contain roughly the same number of clusters. While not definitive, there have been some hints with the running wholesale example that an appropriate number of clusters is around five. For several of the algorithms discussed we can set this value directly. Another alternative is trying to visualize the data using the dimension reduction techniques. The labels designated with colors can provide insight into the cluster assignments. This technique is generally appropriate for the EDA part of the workflow. 
+
+
+## Clusting example:
+
+
+![local](clustring_example/Clustering-Case-Study-Local.zip?raw=true)
+![WS](clustring_example/Clusterin-Case-Study-WS.zip?raw=true)
+
+Download one of these zip files. Clustering-Case-Study-Local.zip contains the data and the notebooks that you can open locally using a Jupyter server. Alternatively, Clustering-Case-Study-WS.zip is a zip archive file containing the files needed to complete this study case in Watson Studio. You can directly upload this last zip file when creating a new Watson Studio project as shown in the previous video Getting started with Watson Studio.
+
+You will need the following files to complete this case study (all can be found in the above .zip file)
+
+    clustering-case-study.ipynb
+	aavail-target.db
