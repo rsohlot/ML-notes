@@ -1,7 +1,9 @@
 * Outliers are data points or observations that fall outside of an expected distribution or pattern. 
 
 For example, if we were to approximate our data with a Poisson distribution, then the outliers are the observations that do not appear to follow the pattern of a Poisson distribution. The same concept follows if linear regression with a model of choice, and a residual plot indicated that a small minority of observations appear to be different from the majority. For some applications of linear models, the presence of aberrant residuals may violate many uderlying model assumptions such as the assumptions that the observations were taken from a population with a normal distribution. 
-[outlier](image/outlier.png?raw=true)
+
+[outlier](image/outlier.png)
+
 The discovery of outliers generally occurs during the EDA stage, and the decision for how to deal with them can have repercussions for the entire workflow, even potentially limiting a project's impact on the business.
 The first thing to keep in mind when dealing with outliers is to ensure that they are identified and tracked in a systematic way.
 This generally involves Data Visualization where the color scheme on scatter plots and histograms is configured to provide guidance and insight.
