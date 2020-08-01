@@ -16,4 +16,4 @@ Notes created from the courses I have taken.
 
 
 
-* ![Feature Selection](Feature_extraction/README.md)
+* ![Feature Selection](feature_extraction/README.md)
