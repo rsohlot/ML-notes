@@ -4,7 +4,7 @@ Notes created from the courses I have taken.
 ## Design thinking process:
 	* Ideate, Prototype and Testing
 
-	*Dealing with bias in your data and machine learning models will become more and more
+	Dealing with bias in your data and machine learning models will become more and more
 	important as you pass through the Ideate and Prototyping phases of the design thinking
 	process. During the Ideate phase, your team members will be looking for new ideas, new ways of
 	looking at the data. The Prototyping phase will involve the rapid creation and testing of
